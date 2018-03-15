@@ -26,18 +26,18 @@ int main()
             Mt= Mt+60;
         }
         if(H1)
-        printf("minutos %i ",(Ht*60)+Mt);
+        printf("%i ",(Ht*60)+Mt);
     }
     else
     {
         if(H1==H2 && M2<M1)
         {
             Mt= (M2-M1)+60;
-            printf("minutos %i\n",1380+Mt);
+            printf("%i\n",1380+Mt);
         }
         else
         {
-           printf("minutos %i", M2-M1);
+           printf("%i", M2-M1);
         }
     }
 }
