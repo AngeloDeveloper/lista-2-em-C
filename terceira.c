@@ -26,7 +26,7 @@ int main()
             Mt= Mt+60;
         }
         if(H1)
-        printf("minutos %i ",(Ht*60)+Mt);
+        printf("%i ",(Ht*60)+Mt);
     }
     else
     {
