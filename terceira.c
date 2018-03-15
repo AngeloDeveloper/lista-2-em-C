@@ -33,11 +33,11 @@ int main()
         if(H1==H2 && M2<M1)
         {
             Mt= (M2-M1)+60;
-            printf("minutos %i\n",1380+Mt);
+            printf("%i\n",1380+Mt);
         }
         else
         {
-           printf("minutos %i", M2-M1);
+           printf("%i", M2-M1);
         }
     }
 }
